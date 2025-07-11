@@ -15,10 +15,10 @@
 
 ## 📂 Структура проекта
 
-## ├── server_win.cpp # Сервер на C++ с WinSock2 и std::thread
-## ├── client.py # Клиентская часть на Python (Tkinter)
-## ├── example.png # Скриншот работы
-## ├── README.md # Документация
+#### ├── server_win.cpp # Сервер на C++ с WinSock2 и std::thread
+#### ├── client.py # Клиентская часть на Python (Tkinter)
+#### ├── example.png # Скриншот работы
+#### ├── README.md # Документация
 
 
 ---
@@ -32,7 +32,7 @@
 
 ### ✅ Клиент:
 - Python 3.8+
-- Tkinter (встроен)
+- Tkinter `pip install tk`
 - Рекомендуется: виртуальное окружение
 
 ---
