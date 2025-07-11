@@ -15,10 +15,10 @@
 
 ## 📂 Структура проекта
 
-├── server_win.cpp # Сервер на C++ с WinSock2 и std::thread
-├── client.py # Клиентская часть на Python (Tkinter)
-├── example.png # Скриншот работы
-├── README.md # Документация
+## ├── server_win.cpp # Сервер на C++ с WinSock2 и std::thread
+## ├── client.py # Клиентская часть на Python (Tkinter)
+## ├── example.png # Скриншот работы
+## ├── README.md # Документация
 
 
 ---
@@ -57,9 +57,13 @@ g++ -std=c++17 server_win.cpp -o server.exe -lws2_32 -pthread
 
 ## 🚀 Запуск клиента
 1️⃣ Установи зависимости (если нужно):
+```bash
 pip install tk
+```
 2️⃣ Запусти клиента:
+```bash
 python client.py
+```
 
 При старте укажи имя пользователя. Открой несколько окон client.py — клиенты будут видеть сообщения друг друга.
 
