@@ -9,7 +9,7 @@
 
 ## 📸 Пример работы
 
-![Example](example.png)
+![Example](example.PNG)
 
 ---
 
